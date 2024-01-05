@@ -58,22 +58,22 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: images.award02,
+    imgUrl: 'https://i.ibb.co/bspbj9T/award02.png',
     title: 'Bib Gourmond',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award01,
+    imgUrl: 'https://i.ibb.co/C7mfCPv/award01.png',
     title: 'Rising Star',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award05,
+    imgUrl: 'https://i.ibb.co/6s4Fftq/award05.png',
     title: 'AA Hospitality',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: images.award03,
+    imgUrl:'https://i.ibb.co/wQ99d67/award03.png',
     title: 'Outstanding Chef',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
