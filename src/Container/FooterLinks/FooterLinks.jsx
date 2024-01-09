@@ -1,15 +1,11 @@
-import React from "react";
+import React from 'react';
+import './FooterLinks.css';
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
-import "./Footer.css";
-import FooterOverlay from "../../Components/Footer/FooterOverlay";
-import Newsletter from "../../Components/Footer/Newsletter";
-import SubHeading from "../../Components/SubHeading/SubHeading";
-
-const Footer = () => (
-  <div className="app__footer section__padding">
-    <FooterOverlay></FooterOverlay>
-    <Newsletter></Newsletter>
-    {/* <div className="app__footer-links app__bg">
+import SubHeading from '../../Components/SubHeading/SubHeading';
+const FooterLinks = () => {
+  return (
+    <div className='app__bg section__padding'>
+      <div className="app__footer-links ">
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contact Us</h1>
         <p className="p__opensans">9 W 53rd St, New York, NY 10019, USA</p>
@@ -38,8 +34,9 @@ const Footer = () => (
     </div>
     <div className="footer__copyright">
       <p className="p__opensans">2021 Gerícht. All Rights reserved.</p>
-    </div> */}
-  </div>
-);
+    </div>
+    </div>
+  );
+};
 
-export default Footer;
+export default FooterLinks;

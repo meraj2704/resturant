@@ -10,6 +10,7 @@ import Laurels from "./Container/Laurels/Laurels";
 import Gallery from "./Container/Gallery/Gallery";
 import FindUs from "./Container/Findus/FindUs";
 import Footer from "./Container/Footer/Footer";
+import FooterLinks from "./Container/FooterLinks/FooterLinks";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Gallery />
       <FindUs />
       <Footer />
+      <FooterLinks></FooterLinks>
     </div>
   );
 }
