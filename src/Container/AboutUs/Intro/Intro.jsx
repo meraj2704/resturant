@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import video from "../../../assets/meal.mp4";
 import {BsPauseFill,BsFillPlayFill} from 'react-icons/bs'
 

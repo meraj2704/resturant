@@ -1,7 +1,7 @@
-import React from 'react';
 import './FooterLinks.css';
 import { FiFacebook, FiTwitter, FiInstagram } from "react-icons/fi";
 import SubHeading from '../../Components/SubHeading/SubHeading';
+const gericht = '/images/gericht.png';
 const FooterLinks = () => {
   return (
     <div className='app__bg section__padding'>
@@ -14,7 +14,7 @@ const FooterLinks = () => {
       </div>
 
       <div className="app__footer-links-logo">
-        <img src="https://i.ibb.co/ZfLTNpv/gericht.png" alt="" />
+        <img src={gericht} alt="" />
         <p className="p__opensans">"The best way to find yourself is to lose yourself in the service of others.”</p>
         <SubHeading></SubHeading>
         <div className="app__footer-links_icons">

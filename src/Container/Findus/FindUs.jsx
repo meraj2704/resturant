@@ -1,6 +1,6 @@
 import React from 'react';
 import SubHeading from '../../Components/SubHeading/SubHeading';
-
+const findUs = '/images/findus.png';
 const FindUs = () => (
   <div className='app__bg app__wrapper section__padding'>
     <div className='app__wrapper_info'>
@@ -16,7 +16,7 @@ const FindUs = () => (
     </div>
 
     <div className='app__wrapper_img'>
-      <img src="https://i.ibb.co/b5xDxHd/findus.png" alt="" />
+      <img src={findUs} alt="" />
     </div>
   </div>
 );

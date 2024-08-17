@@ -1,12 +1,14 @@
-import React from "react";
+
 
 import "./Chef.css";
 import SubHeading from "../../Components/SubHeading/SubHeading";
-
+const chef = '/images/chef.png';
+const quote = '/images/quote.png';
+const sign = '/images/sign.png';
 const Chef = () => (
   <div className="app__bg app__wrapper section__padding">
     <div className="app__wrapper_img app__wrapper_img-reverse">
-      <img src="https://i.ibb.co/r7hvJsc/chef.png" alt="" />
+      <img src={chef} alt="" />
     </div>
 
     <div className="app__wrapper_info">
@@ -15,7 +17,7 @@ const Chef = () => (
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
-          <img src="https://i.ibb.co/ZxBs1Tn/quote.png" alt="" />
+          <img src={quote} alt="" />
           <p className="p__opensans">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .
           </p>
@@ -30,7 +32,7 @@ const Chef = () => (
       <div className="app__chef-sign">
         <p>Kevin Luo</p>
         <p className="p__opensans">Chef & Founder</p>
-        <img src="https://i.ibb.co/Vwd9CG3/sign.png" alt="" />
+        <img src={sign} alt="" />
       </div>
     </div>
   </div>
