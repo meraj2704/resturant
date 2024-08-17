@@ -58,32 +58,32 @@ const cocktails = [
 
 const awards = [
   {
-    imgUrl: '/images/award01.png',
+    imgUrl: 'https://i.ibb.co/bspbj9T/award02.png',
     title: 'Bib Gourmond',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: '/images/award01.png',
+    imgUrl: 'https://i.ibb.co/C7mfCPv/award01.png',
     title: 'Rising Star',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl: '/images/award05.png',
+    imgUrl: 'https://i.ibb.co/6s4Fftq/award05.png',
     title: 'AA Hospitality',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
   {
-    imgUrl:'/images/award03.png',
+    imgUrl:'https://i.ibb.co/wQ99d67/award03.png',
     title: 'Outstanding Chef',
     subtitle: 'Lorem ipsum dolor sit amet, consectetur.',
   },
 ];
 
 const galleryImages = [
-  {imageUrl:'/images/gallery01.png'},
-  {imageUrl:'/images/gallery02.png'},
-  {imageUrl:'/images/gallery03.png'},
-  {imageUrl:'/images/gallery04.png'}
+  {imageUrl:'https://i.ibb.co/b7zNT6z/gallery01.png'},
+  {imageUrl:'https://i.ibb.co/4P2Tdvy/gallery02.png'},
+  {imageUrl:'https://i.ibb.co/jh3SZWP/gallery03.png'},
+  {imageUrl:'https://i.ibb.co/PFYwzps/gallery04.png'}
 ];
 
 export default { wines, cocktails, awards,galleryImages };

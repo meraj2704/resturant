@@ -80,10 +80,10 @@ const awards = [
 ];
 
 const galleryImages = [
-  {imageUrl:'/images/gallery01.png'},
-  {imageUrl:'/images/gallery02.png'},
-  {imageUrl:'/images/gallery03.png'},
-  {imageUrl:'/images/gallery04.png'}
+  {imageUrl:'https://i.ibb.co/b7zNT6z/gallery01.png'},
+  {imageUrl:'https://i.ibb.co/4P2Tdvy/gallery02.png'},
+  {imageUrl:'https://i.ibb.co/jh3SZWP/gallery03.png'},
+  {imageUrl:'https://i.ibb.co/PFYwzps/gallery04.png'}
 ];
 
 export default { wines, cocktails, awards,galleryImages };
